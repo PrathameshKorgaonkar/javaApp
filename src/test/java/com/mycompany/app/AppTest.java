@@ -36,7 +36,7 @@ public class AppTest
     @Test
     public void testAppMessageLength() {
         App app = new App();
-        assertEquals(12, app.getMessage().length());
+        assertEquals(13, app.getMessage().length());
     }
 
     @Test
@@ -44,6 +44,7 @@ public class AppTest
 	App app = new App();
 	assertEquals("HELLO WORLD!", app.getMessage().toUpperCase());
     }
+
 }
 
 
