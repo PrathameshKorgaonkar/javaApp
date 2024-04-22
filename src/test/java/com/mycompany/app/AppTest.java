@@ -43,6 +43,7 @@ public class AppTest
     public void testAppMessageUpperCase() {
 	App app = new App();
 	assertEquals("HELLO WORLD!", app.getMessage());
+    }
 }
 
 
