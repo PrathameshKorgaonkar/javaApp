@@ -38,6 +38,11 @@ public class AppTest
         App app = new App();
         assertEquals(12, app.getMessage().length());
     }
+
+    @Test
+    public void testAppMessageUpperCase() {
+	App app = new App();
+	assertEquals("HELLO WORLD!", app.getMessage());
 }
 
 
