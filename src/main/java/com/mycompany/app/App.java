@@ -2,15 +2,22 @@ package com.mycompany.app;
 
 public class App {
 
-    private static final String MESSAGE = "Hello World!";
+    private String message;
 
-    public App() {}
+    public App(){
+        this.message = "Hello World!";
+    }
 
     public static void main(String[] args) {
-        System.out.println(MESSAGE);
+        App app = new App();
+        System.out.println(app.getMessage());
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getMessage() {
-        return MESSAGE;
+        return message;
     }
 }
