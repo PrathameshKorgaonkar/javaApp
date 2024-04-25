@@ -36,7 +36,7 @@ public class AppTest
     @Test
     public void testAppMessageLength() {
         App app = new App();
-        assertEquals(13, app.getMessage().length());
+        assertEquals(12, app.getMessage().length());
     }
 
     @Test
